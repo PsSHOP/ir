@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMAGE/msi.jpg");
+  height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+	
+
+.hero-text {
+  font-family: Arial;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 50%;
+  margin: 0;
+}
+
+</style>
+</head>
+<body>
+<div class="hero-image">
+<div class="hero-text">
+<h1 style= "font-size:50px">ParsStore.ir</h1>
+</div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  font-family: "B Traffic";
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #33cccc;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body style="text-align: right">
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="file:///C:/Users/PC/Desktop/PS/PsShop.htm">صفحه اصلی</a>
+    <a href="newstabe.htm">اخبار</a>
+    <a href="#">ارتباط با ما</a>
+    <a href="login.htm">حساب کاربری</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="consolegame" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float:right;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card" align="center">
+      <img src="IMAGE/1614457392-tkTuiK4Mh1HynoHH.jpg" alt="msimanitor" style="width:45%">
+      <div class="container">
+        <h2 style="font-family: 'B Traffic'; text-align: center">مانیتور ام اس ای 27 اینچ </h2>
+        <p class="title">MSI Optix G27C2 144Hz VA Panel 27inch Gaming Monitor</p>
+        <p style="color: green; font-family:'B Traffic'"; >موجود در فروشگاه</p>
+                <p style="font-family: 'B Traffic'; text-align: center"><button class="button" style="font-family: 'B Nazanin'">مشاهده قیمت</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card" align="center">
+      <img src="IMAGE/1614454508-0EBQfhfUcoWWHDKA.jpg" alt="msimanitor" style="width:45%">
+      <div class="container">
+        <h2 style="font-family: 'B Traffic'; text-align: center">مانیتور 34 اینچ ام اس آی </h2>
+        <p class="title">MSI Prestige PS341WU 34 Inch WUHD HDR Nano-IPS pre-calibrated Monitor</p>
+		  <p style="color: green; font-family:'B Traffic'"; >موجود در فروشگاه</p>
+                <p style="font-family: 'B Traffic'; text-align: center"><button class="button" style="font-family: 'B Nazanin'">مشاهده قیمت</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card"align="center">
+      <img src="IMAGE/1614455423-piGlpyakk1FWwlwR.jpg" alt="msimanitor" style="width:50%">
+      <div class="container">
+        <h2 style="font-family: 'B Traffic'; text-align: center">مانیتور 21.5 اینچ ام اس آی</h2>
+        <p class="title">MSI PRO MP221 21.5 Inch Display Monitor</p>
+		  <p style="color: green; font-family:'B Traffic'"; >موجود در فروشگاه</p>
+                <p style="font-family: 'B Traffic'; text-align: center"><button class="button" style="font-family: 'B Nazanin'">مشاهده قیمت</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card" align="center">
+      <img src="IMAGE/1614428245-nwAYDQ9AQISU3Ake.jpg"alt="msimanitor" style="width:50%">
+      <div class="container">
+        <h2 style="font-family: 'B Traffic'; text-align: center">مانیتور گیمینگ 30 اینچ خمیده ام اس آی</h2>
+        <p class="title">MSI Optix MAG301CR 30 Inch 1ms 200Hz VA Curved Gaming Monitor</p>
+        <p style="color: green; font-family:'B Traffic'";>موجود در فروشگاه</p>
+               <p style="font-family: 'B Traffic'; text-align: center"><button class="button" style="font-family: 'B Nazanin'">مشاهده قیمت</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card" align="center">
+      <img src="IMAGE/1614462857-VvnkXxK259xonu4O.jpg" alt="msimanitor" style="width:50%">
+      <div class="container">
+        <h2 style="font-family: 'B Traffic'; text-align: center">مانیتور گیمینگ 34 اینچ خمیده ام اس آی</h2>
+        <p class="title">MSI Optix MPG341CQR 34 Inch RGB 144Hz 1ms HDR400 UWQHD Curved Gaming Monitor</p>
+        <p style="color: green; font-family:'B Traffic'";>موجود در فروشگاه</p>
+                <p style="font-family: 'B Traffic'; text-align: center"><button class="button" style="font-family: 'B Nazanin'">مشاهده قیمت</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card"align="center">
+      <img src="IMAGE/1614462856-lYvhNl1nyuL68ri1.jpg" alt="msimanitor" style="width:40%">
+      <div class="container">
+        <h2 style="font-family: 'B Traffic'; text-align: center">مانیتور گیمینگ 27 اینچ خمیده ام اس آی</h2>
+        <p class="title">MSI Optix MAG272CQR 27 Inch RGB 165Hz 1ms HDR WQHD Curved Gaming Monitor</p>
+		 <p style="color: red; font-family:'B Traffic'";>ناموجود</p>
+                <p style="font-family: 'B Traffic'; text-align: center"><button class="button" style="font-family: 'B Nazanin'">مشاهده قیمت</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

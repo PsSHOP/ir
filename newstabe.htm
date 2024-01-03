@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  font-family: "B Traffic";
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #33cccc;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body style="text-align: right">
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="file:///C:/Users/PC/Desktop/PS/PsShop.htm">صفحه اصلی</a>
+    <a href="newstabe.htm">اخبار</a>
+    <a href="contact-form-17(webrubik.com)/index.htm">ارتباط با ما</a>
+    <a href="login.htm">حساب کاربری</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="text-align: left">ParsStore.ir</h1>
+<hr>
+
+<h2 align="right" style="font-family: 'B Traffic'">اخبار ومقالات</h2>
+<p></p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content" align="center">
+      <img src="12.jpg" alt="Mountains" style="width:90%">
+      <h3 style="font-family: 'B Traffic'">مدل بازطراحی شده پلی استیشن ۵ با چیپ ۶ نانومتری AMD سال ۲۰۲۲ از راه می‌رسد</h3>
+      <p style="font-family: 'B Traffic'">پلی استیشن ۵ فروش بالایی در بازار دارد، البته سونی به علت کمبود چیپ نمی‌تواند تمام تقاضاها را برآورده کند. با این حال ظاهرا ژاپنی‌ها مشغول کار روی نسخه جدید این کنسول محبوب هستند که علاوه بر طراحی جدید، از پردازنده بروز شده‌ای هم بهره می‌برد</p>
+    <a href="welcom.htm"><p style="font-family: 'B Titr';color:indigo">ادامه</p></a>
+	  </div>
+  </div>
+  <div class="column">
+    <div class="content" align="center">
+    <img src="IMAGE/5-8.jpg" alt="Lights" style="width:95%">
+      <h3 style="font-family: 'B Traffic'">
+یک محقق امنیتی ردیاب ایرتگ اپل را هک کرد</h3>
+      <p style="font-family: 'B Traffic'; font-size: 15px;">یک محقق امنیتی دریافته که ایرتگ اپل می‌تواند هک و با اعمال تغییرات نرم‌افزاری دوباره برنامه‌نویسی شود. ظاهرا امکان نفوذ به میکروکنترلر ایرتگ وجود دارد و از این طریق می‌توان عملکرد ردیاب بلوتوثی اپل را تغییر دادمدت زیادی از عرضه ایرتگ اپل نمی‌گذرد اما یک محقق امنیتی آلمانی با نام کاربری «Stack Smashing»</p><a href="welcom.htm"><p style="font-family: 'B Titr';color:indigo">ادامه</p></a>
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content" align="center">
+    <img src="IMAGE/Ethereum.jpg" alt="Nature" style="width:85%">
+      <h3 style="font-family: 'B Traffic'">قیمت اتریوم برای اولین بار از مرز ۴۰۰۰ دلار فراتر رفت</h3>
+      <p style="font-family: 'B Traffic'">یک هفته پیش بود که قیمت اتریوم با یک رکوردشکنی از مرز ۳۰۰۰ دلار عبور کرد و توانست توجه بیشتری به خود جلب کند. در طی همین یک هفته این رمزارز چندین بار دیگر دست به رکوردشکنی زد اما نتوانسته بود از سقف ۴۰۰۰ دلار عبور کند. حالا به چنین هدفی دست یافته و قیمتش را به بالای این مرز رسانده است</p>
+	<a href="welcom.htm"><p style="font-family: 'B Titr';color:indigo">ادامه</p></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content" align="center">
+    <img src="IMAGE/ps5-vs-ps5-digital-edition-best-choice-edited.jpeg" style="width:70%">
+      <h3 style="font-family: 'B Traffic'">سونی: مشکلات مربوط به عرضه پلی استیشن ۵ احتمالا تا سال ۲۰۲۲ ادامه می‌یابد</h3>
+      <p style="font-family: 'B Traffic'">سونی انتظار ندارد در آینده نزدیک مشکلات مربوط به تامین کنسول بازی محبوبش، پلی استیشن ۵ به پایان برسد. به گفته مدیر ارشد مالی سونی، «هیروکی توتوکی» این کمپانی شرایط دشواری را برای برآورده کردن تمام تقاضاها تجربه می‌کند و این وضعیت احتمالا تا سال ۲۰۲۲ هم ادامه خواهد داشت</p>
+   <a href="welcom.htm"><p style="font-family: 'B Titr';color:indigo">ادامه</p></a>
+	  </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content" align="center">
+  <img src="IMAGE/Sony-Patent-Streaming-Feature.jpg" alt="Bear" style="width:100%">
+  <h3 style="font-family: 'B Traffic'">پتنت جدید سونی اجرای بازی‌‌های در حال استریم را روی پلی استیشن امکان‌پذیر می‌کند</h3>
+  <p style="font-family: 'B Traffic'">لیست پتنت‌های سونی همچنان طولانی‌تر می‌شود. اکنون پتنت جدید این شرکت قصد دارد نوعی فناوری را در اختیار کاربران قرار دهد که با استفاده از آن می‍توانند گیم‌پلی بازی را مستقیما از طریق استریم‌ها روی کنسول پلی استیشن خود اجرا کنند.
+
+در چند سال گذشته استریم بازی‌های ویدیویی مورد توجه بسیاری از کاربران قرار گرفته که وجود پلتفرم‌های محبوبی مانند توییچ و یوتیوب علاوه بر این موضوع، باعث شده تا شرکت‌های بازی‌سازی بزرگی مانند سونی برای تبلیغ بازی‌های خود از آن‌ها استفاده کنند. برخی گیمرها ترجیح می‌دهند تا استریم کاربرانی مانند Dr Disrespect را تماشا کنند تا با گیم‌پلی بازی مورد نظر خود آشنا شوند اما کاربران دیگری وجود دارند که به صورت کلی ترجیح می‌دهند به جای تجربه بازی‌ها، آن‌ها را از طریق استریمرها دنبال کنند</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+
